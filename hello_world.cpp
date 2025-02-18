@@ -5,6 +5,13 @@
 using namespace std;
 
 
+//// FUNCTION
+void sahHi() {
+	cout << "I have created a function" << endl;
+
+}
+
+
 int main()
 {
 	cout << "Hello world!" << endl;
@@ -61,23 +68,38 @@ int main()
 	//// INPUT
 	int ages_;
 	cout << "Enter your age: ";
-	cin >> ages_;
+	//cin >> ages_;
 
-	cout << "You are " << ages_ << " old" << endl;
+	//cout << "You are " << ages_ << " old" << endl;
 
 	string name_;
 	cout << "Enter your name: ";
-	cin.ignore();  // use this before getline()
-	getline(cin, name_);
+	//cin.ignore();  // use this before getline()
+	//getline(cin, name_);
 	
 	cout << "Your name is " << name_ << endl;
 
 	char grad;
-	cout << "Enter your grade: ";
-	cin >> grad;
-	cout << "your grade is " << grad;
+	cout << "Enter your grade: " << endl;
+	//cin >> grad;
+	//cout << "your grade is " << grad;
 
 
+
+	//// ARRAYS
+	int luckynums[] = { 1, 23, 3, 4, 5 };
+	cout << luckynums[1] << endl;
+
+
+	sahHi();
+
+	//// IF 
+	bool isMale = false;
+
+	if (isMale) {
+		cout << "You're a male" << endl;
+
+	}
 
 	return 0;
 
