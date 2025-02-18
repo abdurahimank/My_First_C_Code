@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FileName.cpp" />
+    <ClCompile Include="hello_world.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
