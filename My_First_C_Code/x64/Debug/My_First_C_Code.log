@@ -1,4 +1,3 @@
-﻿  hello_world.cpp
-C:\Users\laluv\OneDrive - Indian Institute of Management Ahmedabad\Desktop\Git\Repos\My_First_C_Code\hello_world.cpp(69,6): warning C4101: 'ages_': unreferenced local variable
-C:\Users\laluv\OneDrive - Indian Institute of Management Ahmedabad\Desktop\Git\Repos\My_First_C_Code\hello_world.cpp(82,7): warning C4101: 'grad': unreferenced local variable
+﻿  main.cpp
+C:\Users\laluv\OneDrive - Indian Institute of Management Ahmedabad\Desktop\Git\Repos\My_First_C_Code\main.cpp(40,1): warning C4715: 'getDayofweek': not all control paths return a value
   My_First_C_Code.vcxproj -> C:\Users\laluv\OneDrive - Indian Institute of Management Ahmedabad\Desktop\Git\Repos\My_First_C_Code\x64\Debug\My_First_C_Code.exe

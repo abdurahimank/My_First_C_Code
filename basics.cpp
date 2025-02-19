@@ -12,7 +12,7 @@ void sahHi() {
 }
 
 
-int main()
+void basics()
 {
 	cout << "Hello world!" << endl;
 	cout << "This is just learning C++\n";
@@ -58,7 +58,7 @@ int main()
 	int wnum = 5;
 
 	wnum--;
-	
+
 	cout << wnum << endl;
 
 	cout << pow(2, 6) << endl;
@@ -76,7 +76,7 @@ int main()
 	cout << "Enter your name: ";
 	//cin.ignore();  // use this before getline()
 	//getline(cin, name_);
-	
+
 	cout << "Your name is " << name_ << endl;
 
 	char grad;
@@ -93,15 +93,7 @@ int main()
 
 	sahHi();
 
-	//// IF 
-	bool isMale = false;
-
-	if (isMale) {
-		cout << "You're a male" << endl;
-
-	}
-
-	return 0;
+	
 
 
 }
